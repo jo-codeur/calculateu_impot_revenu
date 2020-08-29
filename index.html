@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Calculer votre impot sur le revenu</h1>
+
+    <form action="post">
+        <div>
+            <label for="revenu">Revenu annuel :</label>
+            <input type="text" id="revenu" onkeyup="mon_revenu()">
+            <label for="revenu">€</label>
+        </div>
+        <div>
+            <label for="impos">Impot :</label>
+            <input type="text" id="impos">
+            <label for="impos">€</label>
+        </div>
+        <div>
+            <label for="apres_impos">Après impot :</label>
+            <input type="text" id="apres_impos">
+            <label for="apres_impos">€</label>
+        </div>
+    </form>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
